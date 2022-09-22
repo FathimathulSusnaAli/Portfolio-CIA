@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    
+        <div class="container" style="color:black">
+            <a class="navbar-brand" href="#" style="color:blue"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto" >
+                    
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item active" >
+                        <a class="nav-link" style="color: #f5f6fa" href="#home">Home</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                               
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #f5f6fa" href="#about">About</a>  
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #f5f6fa" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #f5f6fa" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #f5f6fa" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  style="color: #f5f6fa" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                </nav>
+                
+            </div>
+        </div>
+    </nav>
+
+     <!-- main banner -->
+     <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title"style= "font-family:	Brush Script MT,Cursive">Hi, it's me Fathima</h2>
+                <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="hero-container" data-aos="fade-in">
+                      
+                      <p><span class="typed" data-typed-items="I am a Web Developer, Data Analyst"></span></p>
+                    </div>
+                  </section><!-- End Hero -->
+                  
+                  <div> 
+                  <h1 class="mt-2 mb-3" style="font-size: 3rem; color:rgb(255, 253, 253); text-align: center; font-family:	Brush Script MT,Cursive;">
+                  <span id="typed3"><b>I am a Web Developer, Data Analyst</b>b</span>
+                  <span class="typed-cursor" aria-hidden="true"></span>
+                  </h1>
+                  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                  <script>
+                  var typed3 = new Typed('#typed3', {
+                  strings: ['I am a Web Developer, Data Analyst, Machine Learning Engineer, Software Engineer'],
+                  typeSpeed: 85,
+                  backSpeed: 85,
+                  smartBackspace: true, // this is a default
+                  loop: true,
+                  
+                  });
+                </script>
+                </div>
+                  <p class="blink"> <b></p>
+                  <style>
+                      .blink {
+                          animation: blinker 1.5s linear infinite;
+                          color:black;
+                          text-size-adjust: calc(30);
+                          font-family: sans-serif;
+                          text-align:center;
+                      }
+                      @keyframes blinker {
+                          50% {
+                              opacity: 0;
+                          }
+                      }
+                  </style>
+                <a class="btn btn-primary btn-xl" href="#about" >Find Out More</a> 
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <hr class="divider" />
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="D:\New PortfolioTrial\Myphoto(2).jpg" class= "image-fluid" alt=""  width="80%">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> 
+                        <br><br><br>
+                        Passionate Data scientist from Kerala with proven machine learning and 
+                        analytics skills. Currently a final year bachelor’s student in CHRIST 
+                        (Deemed to be University) Lavasa. Seeking an opportunity to learn.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Fathimathul Susna ShoukkathAli</li>
+                                <li>Age: 21</li>
+                                <li>Occupation: Data Science Student</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Place: Kerala</li>
+                                <li>Gender: Female </li>
+                                <li>Email: fathimathulsusnaali@gmail.com</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> 
+                            Looking for a challenging role in a reputable organization to utilize my technical, 
+                            database, and management skills for the growth of the organization as well as to 
+                            enhance my knowledge about new and emerging trends in the Data Analytics sector.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- services section-->
+    <section id="skills">
+        <div class="container">
+            <h1 class="text-center"><br>Skills And Interests</h1>
+            <hr class="divider" />
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            
+                            <h4 class="card-title mt-3" >Python</h4>
+                            <p class="card-text mt-3" align="center">Python is a high-level, general-purpose programming language.
+                                With python I have done multiple major, minor, web scraping and machine learning projects during the Internship as well as during our Academics. Include R-Programming were also one of my interest
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Java Programming</h4>
+                            <p class="card-text mt-3" align="center">Java is a high-level 
+                                object-oriented programming language that is designed to have as few implementation dependencies as possible.
+                                Being an intermediate in this language. Have done a dynamic webpage 
+                                using this with respect to Aviation domain.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Data Visualization</h4>
+                            <p class="card-text mt-3" align="center"> Data Visualization is the graphical representation of information and data where we make use of tableau. Data Visualization with tableau is nothing but the process of presenting information through visual rendering.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Web Development</h4>
+                            <p class="card-text mt-3" align="center"> Being a beginner have worked with portfolio and webpage development. Familiar with CSS, HTML and Javascript.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">Key Skills</h4>
+                            <p class="card-text mt-3"> <ul>
+                                <li>Ms Office</li>
+                                <li>Punctuality and Flexiblity</li>
+                                <li>Communication</li>
+                                <li>Teamwork</li>
+                                <li>Leadership and Managing Skills</li>
+                              </ul>
+
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">Activities and Interest</h4>
+                            <p class="card-text mt-3">
+                                <li>Volunteering and Community.</li>
+                                <li>Reading</li>
+                                <li>Learning Languages</li>
+                                <li>Volleyball</li>
+                                <li> Dancing</li>
+                                <li>Travelling</li>
+                              </ul>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section-->
+    <section id="projects">
+        <div class="container mt-3" >
+            <h1 class="text-center"><br>Projects</h1>
+            <hr class="divider" />
+            <div class="row">
+                <div class="embed-responsive embed-responsive-16by9"></div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="D:\New PortfolioTrial\projecticon(2).jpg" alt="Card image" style="width:100%; height:7.6cm">
+                        <div class="card-body">
+                            <h4 class="card-title">Pixel Level Scene Segmentation</h4>
+                            
+                            <p class="card-text" align="center">In this project, I have done a pixel-level scene 
+                                segmentation on pictures of Autonomous Driving vehicles. 
+                                We built a model, that segments the image into objects. <br></p>
+                            <div class="text-center">
+                                <a href="https://github.com/FathimathulSusnaAli/Pixel-Level-Segmentation.git" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent" >
+                        
+                        <img class="card-img-top" src="D:\New PortfolioTrial\projecticon(3).jpg" alt="Card image" style="width:100%; height:7.6cm">
+                        <div class="card-body">
+                            <h4 class="card-title">Application Development with JavaFX </h4>
+                            <p class="card-text" align="center">In this project, I made a dynamic application with Java and used 
+                                JavaFX for the front end. It was an Airline Reservation application. Motive was to create a basic page for user efficiency.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/FathimathulSusnaAli/Airways.git" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="D:\New PortfolioTrial\projecticon(7).webp" alt="Card image" style="width:100%; height:7.7cm;">
+                        <div class="card-body">
+                            <h4 class="card-title">Web App Deployment</h4>
+                            <p class="card-text" align="center">The project consists of a National Institute of Diabetes and Digestive and Kidney 
+                                Diseases dataset which is to diagnostically predict whether or not a patient has diabetes, 
+                                based on certain diagnostic measurements included in the dataset. </p>
+                            <div class="text-center">
+                                <a href="https://github.com/FathimathulSusnaAli/Major-Project.git" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+     
+    </section>
+
+        <!-- Experience section-->
+        <section id="experience">
+            <div class="container mt-3" >
+                <h1 class="text-center"><br>Experience</h1>
+                <hr class="divider" />
+                <div class="row">
+                    
+                    <div class="embed-responsive embed-responsive-16by9"></div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <img class="card-img-top" src="D:\New PortfolioTrial\experience(1).png" alt="Card image" style="width:100%; height:7.6cm">
+                            <div class="card-body">
+                                <h4 class="card-title">Xoriant Solutions Pvt.</h4>
+                                <p class="card-text" align="center">As part of a team of three. I did pixel-level scene segmentation 
+                                    on pictures of Autonomous Driving vehicles. We built a model, that segments the image into objects. </p>
+                                <div class="text-center">
+                                    <a href="https://github.com/FathimathulSusnaAli/Certificates.git" class="btn btn-success">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+    
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent" >
+                            
+                            <img class="card-img-top" src="D:\New PortfolioTrial\experience(2).png" alt="Card image" style="width:100%; height:8.2cm">
+                            <div class="card-body">
+                                <h4 class="card-title">SmartKnower Pvt.</h4>
+                                <p class="card-text" align="center" >
+                                As a part of this Internship, 
+                                I learned about Machine Learning Models and worked on different Regression, Classification, and Clustering projects.</p>
+                                <div class="text-center">
+                                    <a href="https://github.com/FathimathulSusnaAli/Certificates.git" class="btn btn-success">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent" >
+                            
+                            <img class="card-img-top" src="D:\New PortfolioTrial\experience(3).png" alt="Card image" style="width:100%; height:8.2cm">
+                            <div class="card-body">
+                                <h4 class="card-title">Volunteering Works</h4>
+                                <p class="card-text" align="center" >
+                                As a part of this Internship, 
+                                I have worked for almost an year with volunteering works which gave me better communication skills and socialization.</p>
+                                <div class="text-center">
+                                    <a href="https://github.com/FathimathulSusnaAli/Certificates.git" class="btn btn-success">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                       
+    
+                    
+                    
+                </div>
+                <br>
+         
+        </section>
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center"><br>Contact Me <hr class="divider" /></h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+
+                    <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
+                        <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=lavasa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="our-googlemap-code" href="https://www.bootstrapskins.com/themes" id="grab-maps-authorization">premium bootstrap themes</a><style>#canvas-for-googlemap img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}
+                        </style>
+                </div>
+                    </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <br>
+                    
+                    <button type="button" class="btn btn-success mt-3">Contact Me </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+     
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+                <!-- <h1>Font Awesome icon library</h1>
+
+                
+                 <i class="fab fa-facebook"></i>
+                 <i class="fab fa-instagram"></i>
+                 <i class="fas fa-car"></i>
+                  <i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
+
+<p>Styled Font Awesome icons (size and color):</p>
+<i class="fab fa-facebook" style="font-size:24px;"></i>
+<i class="fas fa-cloud" style="font-size:36px;"></i>
+<i class="fas fa-cloud" style="font-size:48px;color:red;"></i>
+<i class="fas fa-cloud" style="font-size:60px;color:lightblue;"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+    </html>
