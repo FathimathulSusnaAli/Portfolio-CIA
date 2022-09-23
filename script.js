@@ -12,3 +12,4 @@ window.onscroll = function() {
 }
 
 
+$("#fileRequest").click(function(){ /* code to download? */ });
